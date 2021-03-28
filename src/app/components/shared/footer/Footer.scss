@@ -1,0 +1,42 @@
+.bg-footer {
+  background-color: rgb(221, 222, 224);
+}
+
+.foot-nav {
+  color:rgb(97, 97, 97);
+}
+
+.footer {
+  padding-bottom: 3rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+
+.cl-icon-network {
+  color: var(--cl-base);
+}
+
+.cl-icon-network:hover {
+  color: var(--cl-hover);
+}
+
+.faGithub {
+  --cl-base: rgb(110, 110, 110);
+  --cl-hover: rgb(159, 83, 204);
+}
+
+.faFacebook {
+  --cl-base: rgb(110, 110, 110);
+  --cl-hover: rgb(89, 133, 255);
+}
+.faTwitter {
+  --cl-base: rgb(110, 110, 110);
+  --cl-hover: rgb(121, 197, 207);
+}
+.faInstagram {
+  --cl-base: rgb(110, 110, 110);
+  --cl-hover: rgb(248, 152, 88);
+}

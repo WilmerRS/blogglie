@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+.button.is-light.navbar-item-green,
+.button.is-light.navbar-item-orange,
+.button.is-light.navbar-item-purple {
+  background-color: white;
+}
+
+.sticky-header {
+  //position: -webkit-sticky; // required for Safari
+  position: fixed;
+  top: 0px; // required as well.
+  z-index: 10;
+  width: 100%;
+  height: var(--heigth-header);
+}
+
+.header {
+  background-color: white;
+  box-shadow: 2px 2px 5px 0px rgba(15, 15, 15, 0.082)
+}
+
+.navbar-item-green {
+  --bg-navbar-item: rgb(226, 245, 226);
+  --cl-navbar-icon: rgb(46, 134, 46);
+  --cl-navbar-label: #4a4a4a;
+}
+
+.navbar-item-orange {
+  --bg-navbar-item: rgb(253, 231, 218);
+  --cl-navbar-icon: rgb(236, 120, 42);
+  --cl-navbar-label: #4a4a4a;
+}
+
+.navbar-item-purple {
+  --bg-navbar-item: rgb(242, 228, 248);
+  --cl-navbar-icon: rgb(102, 46, 134);
+  --cl-navbar-label: #4a4a4a;
+}
+
+.cl-icon {
+  color: var(--cl-navbar-icon);
+}
+
+.cl-navbar-label {
+  color: var(--cl-navbar-label);
+}
+
+.button.is-light.navbar-item-green:hover,
+.button.is-light.navbar-item-orange:hover,
+.button.is-light.navbar-item-purple:hover {
+  color: var(--cl-navbar-icon);
+  background-color: var(--bg-navbar-item);
+  .cl-navbar-label {
+    color: var(--cl-navbar-icon);
+  }
+}
+
+.icon-size {
+  font-size: 2.5rem;
+}
+
+.icon-label {
+  font-family: 'Lily Script One', cursive;
+  font-size: 2rem;
+}
