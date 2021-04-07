@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <main className="p-header-fixed bg-main">
+        <main className="bg-main">
             <Router />
         </main>
       </>
