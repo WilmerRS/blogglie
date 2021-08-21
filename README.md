@@ -12,4 +12,4 @@
 
 The developers have contributed to this project:
 
-* Wilmer Rodríguez Sánchez - <a href="https://github.com/WilmerRS"> WilmerRS </a>
+* Wilmer Rodríguez Sánchez - <a href="https://github.com/WilmerRS"> WilmerRS </a> 
